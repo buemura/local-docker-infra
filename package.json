@@ -1,0 +1,10 @@
+{
+  "name": "local-docker-infra",
+  "version": "1.0.0",
+  "license": "MIT",
+  "author": "Bruno Uemura",
+  "scripts": {
+    "env:up": "docker-compose build && docker-compose up -d",
+    "env:down": "docker-compose down"
+  }
+}
